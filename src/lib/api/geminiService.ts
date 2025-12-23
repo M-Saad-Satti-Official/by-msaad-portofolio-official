@@ -79,7 +79,7 @@ async function callGemini(prompt: string, isJson: boolean = false): Promise<stri
     config: isJson ? { responseMimeType: "application/json" } : undefined,
   });
 
-  const text = response.text(); // @google/genai syntax checks
+  const text = response.text; // @google/genai syntax checks
   if (!text) throw new Error("Gemini returned empty content");
 
   return text;
