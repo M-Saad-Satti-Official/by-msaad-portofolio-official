@@ -1,64 +1,267 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BySaad | Portfolio</title>
 
-    <!-- ===========================
-        SEO META TAGS
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===========================
+        PRIMARY META TAGS
     ============================ -->
-    <meta
-      name="description"
-      content="Muhammad Saad Satti - Frontend Developer, IT Professional, Data Analyst, and Graphics Designer"
-    />
-    <meta name="author" content="Muhammad Saad Satti" />
+  <title>Muhammad Saad Satti | Frontend Developer & UI/UX Designer | React, TypeScript, Tailwind CSS</title>
+  <meta name="title"
+    content="Muhammad Saad Satti | Frontend Developer & UI/UX Designer | React, TypeScript, Tailwind CSS" />
+  <meta name="description"
+    content="Hi, I'm Muhammad Saad Satti — a passionate Frontend Developer and UI/UX Designer based in Pakistan. I specialize in building modern, responsive web applications using React, TypeScript, and Tailwind CSS. Explore my portfolio to see my latest projects including healthcare platforms, e-commerce sites, and AI-powered applications." />
+  <meta name="keywords"
+    content="Muhammad Saad Satti, Saad Satti, BySaad, Frontend Developer, React Developer, UI/UX Designer, Web Developer Pakistan, Tailwind CSS, TypeScript, JavaScript Developer, Portfolio, Freelance Developer, Healthcare Website Developer, E-commerce Developer" />
+  <meta name="author" content="Muhammad Saad Satti" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="rating" content="general" />
+  <link rel="canonical" href="https://bysaad.netlify.app/" />
 
-    <!-- ===========================
-        OPEN GRAPH (FACEBOOK, LINKEDIN)
+  <!-- ===========================
+        OPEN GRAPH (FACEBOOK, LINKEDIN, DISCORD)
     ============================ -->
-    <meta property="og:title" content="BySaad | Portfolio" />
-    <meta
-      property="og:description"
-      content="Muhammad Saad Satti - Frontend Developer, IT Professional, Data Analyst, and Graphics Designer"
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:image"
-      content="https://lovable.dev/opengraph-image-p98pqg.png"
-    />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bysaad.netlify.app/" />
+  <meta property="og:title" content="Muhammad Saad Satti | Frontend Developer & UI/UX Designer" />
+  <meta property="og:description"
+    content="Passionate Frontend Developer specializing in React, TypeScript, and Tailwind CSS. I build modern, responsive web applications with stunning UI/UX. Based in Pakistan, available for freelance projects worldwide." />
+  <meta property="og:image" content="https://bysaad.netlify.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Muhammad Saad Satti - Frontend Developer Portfolio" />
+  <meta property="og:site_name" content="BySaad Portfolio" />
+  <meta property="og:locale" content="en_US" />
 
-    <!-- ===========================
+  <!-- ===========================
         TWITTER CARD
     ============================ -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@BySaad" />
-    <meta
-      name="twitter:image"
-      content="https://lovable.dev/opengraph-image-p98pqg.png"
-    />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://bysaad.netlify.app/" />
+  <meta name="twitter:title" content="Muhammad Saad Satti | Frontend Developer & UI/UX Designer" />
+  <meta name="twitter:description"
+    content="Passionate Frontend Developer specializing in React, TypeScript, and Tailwind CSS. Building modern web applications with stunning UI/UX." />
+  <meta name="twitter:image" content="https://bysaad.netlify.app/og-image.png" />
+  <meta name="twitter:image:alt" content="Muhammad Saad Satti - Frontend Developer Portfolio" />
+  <meta name="twitter:site" content="@BySaadOfficial" />
+  <meta name="twitter:creator" content="@BySaadOfficial" />
 
-    <!-- ===========================
-        FAVICON
-        (favicon.png must be inside /public)
+  <!-- ===========================
+        ADDITIONAL SEO META TAGS
     ============================ -->
-    <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="msapplication-TileColor" content="#0f172a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="BySaad" />
+  <meta name="application-name" content="BySaad Portfolio" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no" />
 
-    <!-- ===========================
-        GOOGLE FONTS
+  <!-- ===========================
+        FAVICON & ICONS
     ============================ -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/favicon.png" />
 
-  <body>
-    <div id="root"></div>
+  <!-- ===========================
+        STRUCTURED DATA (JSON-LD) - FOR GOOGLE & LLMs
+    ============================ -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://bysaad.netlify.app/#person",
+      "name": "Muhammad Saad Satti",
+      "alternateName": ["Saad Satti", "BySaad", "M. Saad Satti"],
+      "url": "https://bysaad.netlify.app/",
+      "image": "https://bysaad.netlify.app/og-image.png",
+      "description": "Frontend Developer and UI/UX Designer specializing in React, TypeScript, and Tailwind CSS. Based in Pakistan, creating modern web applications.",
+      "jobTitle": ["Frontend Developer", "UI/UX Designer", "Web Developer"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance / Self-Employed"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Pakistan"
+      },
+      "sameAs": [
+        "https://github.com/M-Saad-Satti-Official",
+        "https://linkedin.com/in/bysaad",
+        "https://twitter.com/BySaadOfficial"
+      ],
+      "knowsAbout": [
+        "React.js",
+        "TypeScript",
+        "JavaScript",
+        "Tailwind CSS",
+        "Next.js",
+        "Node.js",
+        "UI/UX Design",
+        "Figma",
+        "Web Development",
+        "Frontend Development",
+        "Responsive Design",
+        "PWA Development"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Frontend Developer",
+        "occupationalCategory": "15-1254.00",
+        "description": "Develops user-facing features for web applications using React, TypeScript, and modern CSS frameworks."
+      }
+    }
+    </script>
 
-    <!-- MAIN ENTRY FILE -->
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://bysaad.netlify.app/#website",
+      "url": "https://bysaad.netlify.app/",
+      "name": "Muhammad Saad Satti Portfolio",
+      "description": "Portfolio website of Muhammad Saad Satti - Frontend Developer and UI/UX Designer",
+      "publisher": {
+        "@id": "https://bysaad.netlify.app/#person"
+      },
+      "inLanguage": "en-US"
+    }
+    </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@id": "https://bysaad.netlify.app/#person"
+      },
+      "dateCreated": "2024-01-01",
+      "dateModified": "2025-12-23"
+    }
+    </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Portfolio Projects",
+      "description": "Featured web development projects by Muhammad Saad Satti",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Fitness Bolt - Gym Landing Page",
+            "description": "A fully responsive, high-conversion gym landing page with AI-powered personal coach experience.",
+            "url": "https://fitnesebolt.netlify.app/",
+            "creator": {"@id": "https://bysaad.netlify.app/#person"}
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "HealthFirst - Medical Care Platform",
+            "description": "Modern, patient-centered healthcare website with appointment booking and physician profiles.",
+            "url": "https://trustcare-hub.lovable.app/",
+            "creator": {"@id": "https://bysaad.netlify.app/#person"}
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Ignite Self - AI Personal Growth Platform",
+            "description": "An intelligent habit-tracking and self-improvement web app with AI-powered insights.",
+            "url": "https://ignite-self.lovable.app/",
+            "creator": {"@id": "https://bysaad.netlify.app/#person"}
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Bisqueria - Artisan Bakery Website",
+            "description": "Elegant bakery e-commerce website with dynamic product listings and smooth shopping experience.",
+            "url": "https://bisqueria-artisan-bakes.lovable.app/",
+            "creator": {"@id": "https://bysaad.netlify.app/#person"}
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Farnaj Cuisine - Fine Dining Restaurant",
+            "description": "Elegant restaurant website with interactive menu, chef profiles, and immersive photography.",
+            "url": "https://farnajcusine.netlify.app/",
+            "creator": {"@id": "https://bysaad.netlify.app/#person"}
+          }
+        }
+      ]
+    }
+    </script>
+
+  <!-- ===========================
+        GOOGLE FONTS (Preload for Performance)
+    ============================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- ===========================
+        DNS PREFETCH FOR PERFORMANCE
+    ============================ -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+</head>
+
+<body>
+  <!-- NOSCRIPT FALLBACK FOR SEO -->
+  <noscript>
+    <div style="padding: 2rem; text-align: center; font-family: system-ui, sans-serif;">
+      <h1>Muhammad Saad Satti - Frontend Developer & UI/UX Designer</h1>
+      <p>Welcome to my portfolio! I'm a passionate Frontend Developer specializing in React, TypeScript, and Tailwind
+        CSS.</p>
+      <p>Please enable JavaScript to view the full interactive experience.</p>
+      <h2>My Skills</h2>
+      <ul style="list-style: none; padding: 0;">
+        <li>React.js & Next.js</li>
+        <li>TypeScript & JavaScript</li>
+        <li>Tailwind CSS & CSS3</li>
+        <li>UI/UX Design & Figma</li>
+        <li>Node.js & Express</li>
+        <li>Git & GitHub</li>
+      </ul>
+      <h2>Featured Projects</h2>
+      <ul>
+        <li><a href="https://fitnesebolt.netlify.app/">Fitness Bolt - Gym Landing Page</a></li>
+        <li><a href="https://trustcare-hub.lovable.app/">HealthFirst - Medical Care Platform</a></li>
+        <li><a href="https://ignite-self.lovable.app/">Ignite Self - AI Personal Growth Platform</a></li>
+        <li><a href="https://bisqueria-artisan-bakes.lovable.app/">Bisqueria - Artisan Bakery Website</a></li>
+        <li><a href="https://farnajcusine.netlify.app/">Farnaj Cuisine - Fine Dining Restaurant</a></li>
+      </ul>
+      <p>Contact: <a href="mailto:saadsatti.dev@gmail.com">saadsatti.dev@gmail.com</a></p>
+    </div>
+  </noscript>
+
+  <div id="root"></div>
+
+  <!-- MAIN ENTRY FILE -->
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

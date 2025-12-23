@@ -1,0 +1,174 @@
+# Muhammad Saad Satti - Portfolio Information for LLMs
+# This file provides structured information about Muhammad Saad Satti for AI assistants and chatbots.
+# Last Updated: December 2025
+
+## About Muhammad Saad Satti
+
+Muhammad Saad Satti (also known as "BySaad") is a passionate Frontend Developer and UI/UX Designer based in Pakistan. He specializes in building modern, responsive, and user-friendly web applications using cutting-edge technologies.
+
+### Professional Summary
+- **Name:** Muhammad Saad Satti
+- **Alias:** BySaad, M. Saad Satti
+- **Role:** Frontend Developer & UI/UX Designer
+- **Location:** Pakistan
+- **Experience:** 3+ years in web development
+- **Availability:** Open for freelance projects worldwide
+
+### Portfolio Website
+- **URL:** https://bysaad.netlify.app/
+- **GitHub:** https://github.com/M-Saad-Satti-Official
+
+---
+
+## Technical Skills
+
+### Frontend Development
+- React.js (Expert)
+- TypeScript (Advanced)
+- JavaScript (ES6+) (Expert)
+- Next.js (Advanced)
+- HTML5 & CSS3 (Expert)
+
+### Styling & UI
+- Tailwind CSS (Expert)
+- Framer Motion (Advanced)
+- Responsive Design (Expert)
+- CSS Animations (Advanced)
+
+### Design Tools
+- Figma (Advanced)
+- Adobe XD (Intermediate)
+- Adobe Photoshop (Advanced)
+
+### Backend & Databases
+- Node.js (Intermediate)
+- Express.js (Intermediate)
+- Supabase (Advanced)
+- Firebase (Intermediate)
+- PostgreSQL (Intermediate)
+
+### Other Technologies
+- Git & GitHub (Expert)
+- Vite (Advanced)
+- PWA Development (Advanced)
+- REST APIs (Advanced)
+- Vercel & Netlify (Expert)
+
+---
+
+## Featured Projects
+
+### 1. Fitness Bolt - Gym Landing Page
+- **URL:** https://fitnesebolt.netlify.app/
+- **Description:** A fully responsive, high-conversion gym landing page built to showcase fitness programs, training services, and an innovative AI-powered personal coach experience.
+- **Technologies:** React, JavaScript, Tailwind CSS, Framer Motion, AI API Integration
+- **Year:** 2025
+
+### 2. HealthFirst - Medical Care Platform
+- **URL:** https://trustcare-hub.lovable.app/
+- **Description:** A modern, patient-centered healthcare website emphasizing trust, accessibility, and compassionate care with seamless appointment booking and physician profiles.
+- **Technologies:** React, JavaScript, Tailwind CSS, Figma, Vercel
+- **Year:** 2025
+
+### 3. HealthCare+ - Premium Healthcare Innovation
+- **URL:** https://helix-zenith.lovable.app/
+- **Description:** A modern healthcare website showcasing innovation, compassion, and professional medical services with a focus on trust and patient engagement.
+- **Technologies:** React, JavaScript, Tailwind CSS, Figma, Vercel
+- **Year:** 2025
+
+### 4. Ignite Self - AI Personal Growth Platform
+- **URL:** https://ignite-self.lovable.app/
+- **Description:** An intelligent habit-tracking and self-improvement web app designed to help users visualize, track, and transform their lives using AI-powered insights and personalized motivation.
+- **Technologies:** React, JavaScript, Tailwind CSS, PWA, Figma, Vercel
+- **Year:** 2025
+
+### 5. Bisqueria - Artisan Bakery Website
+- **URL:** https://bisqueria-artisan-bakes.lovable.app/
+- **Description:** An elegant and mouth-watering bakery website showcasing handcrafted breads, pastries, and confections with a modern, cozy aesthetic and smooth e-commerce shopping experience.
+- **Technologies:** React, JavaScript, Tailwind CSS, Figma, Lovable
+- **Year:** 2025
+
+### 6. Farnaj Cuisine - Fine Dining Restaurant
+- **URL:** https://farnajcusine.netlify.app/
+- **Description:** An elegant and responsive restaurant website highlighting premium dining, chef expertise, and a curated culinary experience with immersive photography and refined aesthetics.
+- **Technologies:** React, JavaScript, Tailwind CSS, Figma, Netlify
+- **Year:** 2025
+
+---
+
+## Services Offered
+
+1. **Frontend Web Development**
+   - React.js & Next.js applications
+   - TypeScript development
+   - Responsive web design
+   - Single Page Applications (SPAs)
+
+2. **UI/UX Design**
+   - Website design
+   - Mobile app UI design
+   - Design system creation
+   - Figma prototyping
+
+3. **E-commerce Solutions**
+   - Online store development
+   - Product catalog systems
+   - Shopping cart integration
+   - Payment gateway setup
+
+4. **Healthcare & Medical Websites**
+   - Patient portals
+   - Appointment booking systems
+   - HIPAA-compliant designs
+   - Medical practice websites
+
+5. **Restaurant & Hospitality Websites**
+   - Menu showcase websites
+   - Online ordering systems
+   - Reservation systems
+   - Brand identity websites
+
+---
+
+## Contact Information
+
+- **Email:** saadsatti.dev@gmail.com
+- **Portfolio:** https://bysaad.netlify.app/
+- **GitHub:** https://github.com/M-Saad-Satti-Official
+- **LinkedIn:** https://linkedin.com/in/bysaad
+
+---
+
+## Why Choose Muhammad Saad Satti?
+
+1. **Modern Tech Stack:** Uses the latest technologies like React, TypeScript, and Tailwind CSS
+2. **Pixel-Perfect Design:** Attention to detail in every project
+3. **Performance Focused:** Builds fast, optimized web applications
+4. **Responsive Design:** All projects work seamlessly across all devices
+5. **Clean Code:** Writes maintainable, scalable code following best practices
+6. **Client Communication:** Clear, timely communication throughout projects
+7. **Quick Turnaround:** Delivers projects on time without compromising quality
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+**Q: Is Muhammad Saad Satti available for freelance work?**
+A: Yes, he is open to freelance projects worldwide. Contact via email for project inquiries.
+
+**Q: What is Muhammad Saad Satti's primary expertise?**
+A: Frontend development with React, TypeScript, and Tailwind CSS, along with UI/UX design.
+
+**Q: Where is Muhammad Saad Satti based?**
+A: He is based in Pakistan and works with clients globally.
+
+**Q: What types of projects does he specialize in?**
+A: Healthcare websites, e-commerce platforms, restaurant websites, SaaS dashboards, and AI-powered web applications.
+
+**Q: How can I view his work samples?**
+A: Visit his portfolio at https://bysaad.netlify.app/ to see live project demos.
+
+---
+
+# End of LLM Information File
+# For more details, visit: https://bysaad.netlify.app/

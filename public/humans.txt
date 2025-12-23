@@ -1,0 +1,20 @@
+/* TEAM */
+
+Developer & Designer: Muhammad Saad Satti
+Site: https://bysaad.netlify.app/
+GitHub: https://github.com/M-Saad-Satti-Official
+Location: Pakistan
+
+/* SITE */
+
+Last update: 2025/12/23
+Standards: HTML5, CSS3, ES6+
+Components: React, TypeScript, Tailwind CSS
+Software: VS Code, Figma, Git
+Hosting: Netlify
+
+/* THANKS */
+
+Font: Inter, Space Grotesk (Google Fonts)
+Icons: Lucide Icons
+Animations: Framer Motion

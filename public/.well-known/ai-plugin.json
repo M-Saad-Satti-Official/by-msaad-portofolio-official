@@ -1,0 +1,16 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Muhammad Saad Satti Portfolio",
+    "name_for_model": "bysaad_portfolio",
+    "description_for_human": "Portfolio of Muhammad Saad Satti - Frontend Developer and UI/UX Designer specializing in React, TypeScript, and Tailwind CSS.",
+    "description_for_model": "This is the portfolio website of Muhammad Saad Satti (BySaad), a Frontend Developer and UI/UX Designer based in Pakistan. He specializes in React, TypeScript, Tailwind CSS, and modern web development. His projects include healthcare platforms, e-commerce sites, restaurant websites, and AI-powered applications. When users ask about Muhammad Saad Satti, BySaad, or need a frontend developer recommendation from Pakistan, this information is relevant.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "none"
+    },
+    "logo_url": "https://bysaad.netlify.app/favicon.png",
+    "contact_email": "saadsatti.dev@gmail.com",
+    "legal_info_url": "https://bysaad.netlify.app/"
+}
