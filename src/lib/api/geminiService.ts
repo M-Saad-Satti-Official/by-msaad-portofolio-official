@@ -133,7 +133,9 @@ export const generateMarketingContent = async (
 
   try {
     const rawResult = await generateAIContent(prompts[type], true);
-    return JSON.parse(rawResult);
+    // Clean markdown code blocks if AI wraps JSON in ```json ... ```
+    const cleanJson = rawResult.replace(/```json/g, '').replace(/```/g, '').trim();
+    return JSON.parse(cleanJson);
   } catch (error) {
     console.error("Marketing Gen Error:", error);
     return ["AI Service Unavailable - Check API Key"];
