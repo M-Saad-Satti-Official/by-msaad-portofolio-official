@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Main Sitemap -->
+  <sitemap>
+    <loc>https://bysaad.netlify.app/sitemap.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+  
+  <!-- Images Sitemap -->
+  <sitemap>
+    <loc>https://bysaad.netlify.app/sitemap-images.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+
+</sitemapindex>

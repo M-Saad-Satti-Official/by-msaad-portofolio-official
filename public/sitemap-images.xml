@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ========================================
+       PORTFOLIO IMAGES SITEMAP
+       For Google Images SEO
+  ======================================== -->
+
+  <!-- Profile / OG Image -->
+  <url>
+    <loc>https://bysaad.netlify.app/</loc>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/og-image.png</image:loc>
+      <image:title>Muhammad Saad Satti - Frontend Developer</image:title>
+      <image:caption>Professional portfolio of Muhammad Saad Satti, Frontend Developer and UI/UX Designer from Pakistan</image:caption>
+      <image:geo_location>Pakistan</image:geo_location>
+      <image:license>https://bysaad.netlify.app/</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/favicon.png</image:loc>
+      <image:title>BySaad Logo</image:title>
+      <image:caption>Logo of BySaad - Muhammad Saad Satti Portfolio</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Fitness Bolt Project Images -->
+  <url>
+    <loc>https://bysaad.netlify.app/case-studies/1</loc>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/fitness-bolt-hero.png</image:loc>
+      <image:title>Fitness Bolt Hero Section</image:title>
+      <image:caption>High-conversion gym landing page hero section with bold design and AI fitness coach</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/fitness-bolt-desktop.png</image:loc>
+      <image:title>Fitness Bolt Desktop View</image:title>
+      <image:caption>Full desktop view of Fitness Bolt gym website showing classes and programs</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/fitness-bolt-schedule.png</image:loc>
+      <image:title>Fitness Bolt Class Schedule</image:title>
+      <image:caption>Interactive class schedule section of the Fitness Bolt gym website</image:caption>
+    </image:image>
+  </url>
+
+  <!-- HealthFirst Project Images -->
+  <url>
+    <loc>https://bysaad.netlify.app/case-studies/2</loc>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/healthfirst-hero.png</image:loc>
+      <image:title>HealthFirst Homepage</image:title>
+      <image:caption>Patient-centered healthcare website hero section with appointment booking</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/healthfirst-about.png</image:loc>
+      <image:title>HealthFirst About Section</image:title>
+      <image:caption>About section showcasing medical services and physician profiles</image:caption>
+    </image:image>
+  </url>
+
+  <!-- HealthCare+ Project Images -->
+  <url>
+    <loc>https://bysaad.netlify.app/case-studies/3</loc>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/healthcare-hero.png</image:loc>
+      <image:title>HealthCare+ Homepage</image:title>
+      <image:caption>Premium healthcare innovation website with modern medical services</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/healthcare-about.png</image:loc>
+      <image:title>HealthCare+ Services</image:title>
+      <image:caption>Healthcare services and department sections with specialist profiles</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/healthcare-mockup-1.png</image:loc>
+      <image:title>HealthCare+ Mockup</image:title>
+      <image:caption>Device mockup showing responsive healthcare website design</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Ignite Self Project Images -->
+  <url>
+    <loc>https://bysaad.netlify.app/case-studies/4</loc>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/ignite-self-hero.png</image:loc>
+      <image:title>Ignite Self Homepage</image:title>
+      <image:caption>AI-powered personal growth platform with dark futuristic theme</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/ignite-self-login.png</image:loc>
+      <image:title>Ignite Self Login Page</image:title>
+      <image:caption>Secure login interface for the habit tracking application</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/ignite-self-dashboard.png</image:loc>
+      <image:title>Ignite Self Dashboard</image:title>
+      <image:caption>Real-time growth tracking dashboard with AI insights and analytics</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Bisqueria Project Images -->
+  <url>
+    <loc>https://bysaad.netlify.app/case-studies/5</loc>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/bisqueria-hero.png</image:loc>
+      <image:title>Bisqueria Homepage</image:title>
+      <image:caption>Artisan bakery website with warm aesthetic and handcrafted products</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/bisqueria-products.png</image:loc>
+      <image:title>Bisqueria Products</image:title>
+      <image:caption>Dynamic product listing with bakery items, pricing, and quick order buttons</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Farnaj Cuisine Project Images -->
+  <url>
+    <loc>https://bysaad.netlify.app/case-studies/6</loc>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/farnaj-hero.png</image:loc>
+      <image:title>Farnaj Cuisine Homepage</image:title>
+      <image:caption>Fine dining restaurant website with elegant design and immersive photography</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/farnaj-about.png</image:loc>
+      <image:title>Farnaj Cuisine About Section</image:title>
+      <image:caption>Restaurant story and chef philosophy section</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/farnaj-menu.png</image:loc>
+      <image:title>Farnaj Cuisine Menu</image:title>
+      <image:caption>Interactive menu with pricing and food photography</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bysaad.netlify.app/assets/farnaj-story.png</image:loc>
+      <image:title>Farnaj Cuisine Story</image:title>
+      <image:caption>Restaurant ambience and culinary journey showcase</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

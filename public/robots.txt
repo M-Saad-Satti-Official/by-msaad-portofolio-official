@@ -1,24 +1,48 @@
 # Muhammad Saad Satti Portfolio - robots.txt
 # https://bysaad.netlify.app/
 
-# Allow all search engines
+# ========================================
+# ALLOW ALL SEARCH ENGINES
+# ========================================
+
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /*.json$
 
-# Google
+# ========================================
+# GOOGLE CRAWLERS
+# ========================================
+
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
 Allow: /
 
-# Bing
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ========================================
+# BING CRAWLERS
+# ========================================
+
 User-agent: Bingbot
 Allow: /
 
-# Social Media Crawlers
+User-agent: MSNBot
+Allow: /
+
+# ========================================
+# SOCIAL MEDIA CRAWLERS
+# ========================================
+
 User-agent: Twitterbot
 Allow: /
 
@@ -34,7 +58,19 @@ Allow: /
 User-agent: Slackbot
 Allow: /
 
-# AI/LLM Crawlers
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+# ========================================
+# AI / LLM CRAWLERS
+# ========================================
+
 User-agent: GPTBot
 Allow: /
 
@@ -59,5 +95,40 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-# Sitemap location
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# ========================================
+# OTHER USEFUL CRAWLERS
+# ========================================
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ========================================
+# SITEMAP LOCATIONS
+# ========================================
+
 Sitemap: https://bysaad.netlify.app/sitemap.xml
+Sitemap: https://bysaad.netlify.app/sitemap-index.xml
+Sitemap: https://bysaad.netlify.app/sitemap-images.xml
+
+# ========================================
+# LLM CONTEXT FILE
+# ========================================
+
+# LLMs can find additional context at:
+# https://bysaad.netlify.app/llms.txt
+# https://bysaad.netlify.app/.well-known/ai-plugin.json
