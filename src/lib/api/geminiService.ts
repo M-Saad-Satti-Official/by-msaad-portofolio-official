@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 const getClient = () => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = process.env.VITE_GEMINI_API_KEY;
   if (!apiKey) {
     console.error("API Key not found");
     return null;
@@ -9,20 +9,20 @@ const getClient = () => {
   return new GoogleGenAI({ apiKey });
 };
 
-export type ContentType = 
-  | 'taglines' 
-  | 'blog-ideas' 
-  | 'social-posts' 
-  | 'news-feed' 
-  | 'marketing-angles' 
-  | 'content-outlines' 
+export type ContentType =
+  | 'taglines'
+  | 'blog-ideas'
+  | 'social-posts'
+  | 'news-feed'
+  | 'marketing-angles'
+  | 'content-outlines'
   | 'topic-ideas'
   | 'code-snippets'
   | 'api-integrations'
   | 'innovative-expansions';
 
 export const generateMarketingContent = async (
-  topic: string, 
+  topic: string,
   industry: string,
   type: ContentType
 ): Promise<string[]> => {
@@ -31,9 +31,9 @@ export const generateMarketingContent = async (
 
   try {
     const model = 'gemini-2.5-flash';
-    
+
     const basePrompt = `Act as a world-class content strategist for the "${industry}" industry, focusing on "${topic}".`;
-    
+
     const prompts: Record<ContentType, string> = {
       'taglines': `${basePrompt} Generate 5 punchy, high-converting marketing taglines (max 10 words each). Return ONLY a raw JSON array of strings. Do not use markdown formatting.`,
       'blog-ideas': `${basePrompt} Generate 5 engaging blog post titles that would drive SEO traffic. Return ONLY a raw JSON array of strings. Do not use markdown formatting.`,
@@ -65,10 +65,10 @@ export const generateMarketingContent = async (
   }
 };
 
-export type ToolType = 
-  | 'code-refactor' 
-  | 'sql-query' 
-  | 'color-palette' 
+export type ToolType =
+  | 'code-refactor'
+  | 'sql-query'
+  | 'color-palette'
   | 'regex-generator'
   | 'image-generator'
   | 'resume-analyzer'
@@ -88,7 +88,7 @@ export const generateToolResult = async (type: ToolType, input: string): Promise
         model: 'gemini-2.5-flash-image',
         contents: { parts: [{ text: input }] }
       });
-      
+
       const candidates = response.candidates;
       if (candidates && candidates.length > 0) {
         for (const part of candidates[0].content?.parts || []) {
