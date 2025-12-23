@@ -46,7 +46,7 @@ async function callOpenRouter(prompt: string, isJson: boolean = false): Promise<
       "X-Title": "BySaad Portfolio",
     },
     body: JSON.stringify({
-      model: "deepseek/deepseek-r1-distill-llama-70b:free", // Updated to stable free model
+      model: "deepseek/deepseek-r1-0528:free", // Updated to stable free model
       messages: [{ role: "user", content: prompt }],
       response_format: isJson ? { type: "json_object" } : undefined,
     })
