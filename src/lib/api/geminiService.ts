@@ -91,18 +91,14 @@ async function callGemini(prompt: string, isJson: boolean = false): Promise<stri
 async function generateAIContent(prompt: string, isJson: boolean): Promise<string> {
   // 1. Try Primary (OpenRouter)
   try {
-    console.log("🤖 Attempting Primary AI (OpenRouter)...");
     return await callOpenRouter(prompt, isJson);
   } catch (primaryError: any) {
-    console.warn("⚠️ OpenRouter failed. Switching to Fallback...", primaryError.message);
   }
 
   // 2. Try Fallback (Gemini)
   try {
-    console.log("🛡️ Attempting Fallback AI (Gemini)...");
     return await callGemini(prompt, isJson);
   } catch (fallbackError: any) {
-    console.error("❌ All AI Providers failed.", fallbackError.message);
     throw new Error("AI Service Unavailable - Check API Key");
   }
 }
@@ -137,7 +133,7 @@ export const generateMarketingContent = async (
     const cleanJson = rawResult.replace(/```json/g, '').replace(/```/g, '').trim();
     return JSON.parse(cleanJson);
   } catch (error) {
-    console.error("Marketing Gen Error:", error);
+    // Error silenced for production
     return ["AI Service Unavailable - Check API Key"];
   }
 };
@@ -212,7 +208,7 @@ export const generateToolResult = async (type: ToolType, input: string): Promise
     }
     return rawResult;
   } catch (error) {
-    console.error("Tool Gen Error:", error);
+    // Error silenced for production
     return "AI Service Unavailable - Check API Key";
   }
 };
