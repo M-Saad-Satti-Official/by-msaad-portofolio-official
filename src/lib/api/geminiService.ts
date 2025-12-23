@@ -71,7 +71,7 @@ async function callGemini(prompt: string, isJson: boolean = false): Promise<stri
   if (!ENV.GEMINI_API_KEY) throw new Error("Gemini API Key missing");
 
   const genAI = new GoogleGenAI({ apiKey: ENV.GEMINI_API_KEY });
-  const model = "gemini-2.5-flash"; // Fast and reliable fallback
+  const model = "gemini-1.5-flash"; // Fast and reliable fallback
 
   const response = await genAI.models.generateContent({
     model,
@@ -148,7 +148,7 @@ export const generateToolResult = async (type: ToolType, input: string): Promise
       const genAI = new GoogleGenAI({ apiKey: ENV.GEMINI_API_KEY });
       // Note: @google/genai image models might behave differently versions
       const response = await genAI.models.generateContent({
-        model: 'gemini-2.5-flash-image', // Ensure this model exists in your tier
+        model: 'gemini-1.5-flash', // Ensure this model exists in your tier
         contents: { parts: [{ text: input }] }
       });
       // Mocking/Standardizing return execution for image logic specific to libraries
